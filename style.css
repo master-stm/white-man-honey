@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;600;700&family=Noto+Sans+Arabic:wght@400;700&display=swap');
+
+.overlay-title {
+    position: absolute;
+    top: 23%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Sans Arabic', sans-serif;
+    color: #FFFDD0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+}
+
+.overlay-subtitle {
+    position: absolute;
+    top: 28.5%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #541005;
+    font-size: 1rem;
+    font-weight: 400;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    direction: rtl;
+}
+
+.overlay-text p:nth-child(2) {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFF;
+    color: #FFF;
+}
+
+.overlay-description {
+    position: absolute;
+    top: 78.5%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.overlay-list {
+    position: absolute;
+    top: 89.5%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    text-align: end;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.overlay-list p {
+    color: #5E2206;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0.55rem 0;
+}
+
+.section-2-title {
+    position: absolute;
+    top: 19%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    color: #FFFDD0;
+    font-size: 0.95rem;
+    font-weight: 700;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+    width: 100%;
+}
+
+.benefits-list {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    text-align: center;
+}
+
+.benefits-list p {
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    flex: 1;
+    padding: 0 0.2rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.2;
+    transform: scale(0.75);
+}
+
+.benefits-list p:nth-child(2),
+.benefits-list p:nth-child(4) {
+    color: #541005;
+}
+
+.results-text {
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #541005;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    z-index: 10;
+}
+
+.ingredients-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    z-index: 10;
+    display: block;
+}
+
+.ingredients-header {
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    position: absolute;
+    top: 5%;
+    left: 49%;
+}
+
+.ingredients-intro {
+    color: #541005;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1rem;
+    direction: rtl;
+    text-align: right;
+    width: 43%;
+    position: absolute;
+    top: 13%;
+    right: 0;
+    line-height: 1.6;
+}
+
+.ingredient-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.01rem;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 0.95rem;
+    direction: rtl;
+    position: relative;
+    top: 42%;
+}
+
+.ingredient-bar p {
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.results-timing-title {
+    position: absolute;
+    top: 9%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    direction: rtl;
+    color: #FFFDD0;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.results-timing-list {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 10;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.results-timing-list p {
+    color: #541005;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.ingredient-bar strong {
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.ingredient-bar .dark {
+
+    color: #FFF;
+}
+
+.ingredient-bar .light {
+    color: #541005;
+}
+
+.usage-section {
+    width: 100%;
+    padding: 40px 0;
+    background: linear-gradient(to bottom, #7D4A3D 0%, #541005 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.usage-title {
+    color: #FFF;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    direction: rtl;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+.usage-title::before,
+.usage-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 2px;
+    background-color: #FFF;
+}
+
+.usage-title::before {
+    right: calc(100% + 5px);
+}
+
+.usage-title::after {
+    left: calc(100% + 5px);
+}
+
+.section-5-title {
+    position: absolute;
+    top: 2%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    color: #FFFDD0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    direction: rtl;
+    width: 70%;
+    padding: 0 20px;
+    z-index: 10;
+    white-space: normal;
+    line-height: 1.5em;
+}
+
+.section-5-instructions {
+    position: absolute;
+    top: 56%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 10;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4rem;
+}
+
+.section-5-instructions p {
+    color: #541005;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.section-6 {
+    margin-top: -60px;
+    position: relative;
+    z-index: -1;
+}
+
+.section-6-title {
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #541005;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    direction: rtl;
+    width: 100%;
+    z-index: 10;
+}
+
+.section-7 {
+    width: 100%;
+    background-color: #541005;
+    padding: 1rem 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guarantee-list {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    direction: rtl;
+}
+
+.guarantee-list p {
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+    text-align: right;
+    line-height: 1.2;
+}
+
+.section-8-title {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #541005;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    direction: rtl;
+    width: 100%;
+    z-index: 10;
+}
+
+.testimonials {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 800px;
+    z-index: 10;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonials p {
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    line-height: 1;
+}
+
+.faq-wrapper {
+    width: 100%;
+    z-index: 10;
+    direction: rtl;
+}
+
+.faq-header {
+    width: 100%;
+    background-color: #E5D8C1;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.faq-header h2 {
+    color: #541005;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+    direction: rtl;
+    border-top: 1px dotted #541005;
+    border-left: 1px dotted #541005;
+    border-right: 1px dotted #541005;
+    border-radius: 15px 15px 0 0;
+    padding: 1.1em 1em 0;
+}
+
+.faq-content {
+    width: 100%;
+    background-color: #541005;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-left: 1px dotted #541005;
+    border-bottom: 1px dotted #541005;
+    border-right: 1px dotted #541005;
+    border-radius: 0 0 15px 15px;
+
+}
+
+details {
+
+    border-radius: 8px;
+    padding: 15px 20px;
+    cursor: pointer;
+    direction: rtl;
+}
+
+details summary {
+    color: #FFFDD0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    list-style: none;
+    cursor: pointer;
+    text-align: right;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] summary {
+    margin-bottom: 15px;
+}
+
+details p {
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.section-10-title-1 {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #541005;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    direction: rtl;
+    width: 90%;
+    z-index: 10;
+}
+
+.section-10-title-2 {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFDD0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    direction: rtl;
+    width: 90%;
+    z-index: 10;
+}
+
+.section-10-title-3 {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFDD0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    direction: rtl;
+    width: 90%;
+    z-index: 10;
+}
+
+.section-10-title-4 {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #541005;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    direction: rtl;
+    width: 90%;
+    z-index: 10;
+}
+
+/* Floating Action Button */
+.fab-container {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 1000;
+}
+
+.fab-main {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #541005 0%, #7D4A3D 100%);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(84, 16, 5, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.fab-main:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(84, 16, 5, 0.6);
+}
+
+.fab-main:active {
+    transform: scale(0.95);
+}
+
+.fab-options {
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+.fab-options.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.fab-option {
+    padding: 12px 20px;
+    background-color: #541005;
+    color: #FFFDD0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    white-space: nowrap;
+    box-shadow: 0 2px 8px rgba(84, 16, 5, 0.3);
+    transition: all 0.3s ease;
+    direction: rtl;
+}
+
+.fab-option:hover {
+    background-color: #7D4A3D;
+    transform: translateX(-5px);
+    box-shadow: 0 4px 12px rgba(84, 16, 5, 0.5);
+}
+
+.fab-option:active {
+    transform: translateX(-5px) scale(0.95);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+:root {
+    --bg-dark: #541005;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-color: var(--bg-dark);
+    overflow-x: hidden;
+    line-height: 0;
+    /* Removing extra space under images */
+}
+
+main {
+    width: 100%;
+    max-width: 100%;
+}
+
+.video-section,
+.image-section {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Optional: Improve mobile view if images are too wide */
+@media (max-width: 768px) {
+
+    /* 
+       If images are designed for desktop, they might look small on mobile.
+       If we want them strictly legible, we keep width: 100%.
+       If they are just decorative, this is fine. 
+    */
+    video {
+        min-height: 300px;
+        /* Ensure video has presence on small screens */
+        object-fit: cover;
+    }
+}

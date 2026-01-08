@@ -1,0 +1,20 @@
+# Large video files
+aimershed reel 1.mp4
+images/white_man_honey.psd
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if using npm)
+node_modules/
+
+# Build outputs
+dist/
+build/
