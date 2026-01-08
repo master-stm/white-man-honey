@@ -190,7 +190,7 @@
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 0.95rem;
     direction: rtl;
-    position: absolute;
+    position: relative;
     top: 41%;
     right: 5%;
     justify-content: space-between;
