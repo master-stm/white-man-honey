@@ -196,7 +196,7 @@
 
 .ingredient-bar p {
     width: 100%;
-    padding: 5px 15px;
+    padding: 0.35em 0.9em;
     border-radius: 8px;
     display: flex;
     align-items: center;
