@@ -706,14 +706,43 @@ details p {
     background: rgba(255, 253, 208, 0.05);
     border: 1px solid rgba(255, 253, 208, 0.3);
     color: #FFFDD0;
-    padding: 15px;
-    border-radius: 12px;
+    padding: 20px;
+    border-radius: 15px;
     cursor: pointer;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-    transition: all 0.2s;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    overflow: hidden;
 }
+
+.weight-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: block;
+}
+
+.weight-desc {
+    font-size: 0.9rem;
+    font-weight: 400;
+    opacity: 0.8;
+    display: block;
+}
+
+.weight-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #FFF;
+}
+
+.weight-opt.active .weight-price {
+    color: #541005;
+}
+
 
 .weight-opt:hover {
     background: rgba(255, 253, 208, 0.15);
