@@ -1,0 +1,57 @@
+.section-2-title {
+    position: absolute;
+    top: 19%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    color: #FFFDD0;
+    font-size: 0.95rem;
+    font-weight: 700;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+}
+
+.benefits-list {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    text-align: center;
+}
+
+.benefits-list p {
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: clamp(0.7rem, 3.5vw, 1.2rem);
+    font-weight: 600;
+    flex: 1;
+    padding: 0 0.2rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.2;
+}
+
+.benefits-list p:nth-child(2),
+.benefits-list p:nth-child(4) {
+    color: #541005;
+}
+
+.results-text {
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #541005;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: clamp(0.7rem, 3vw, 0.85rem);
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}

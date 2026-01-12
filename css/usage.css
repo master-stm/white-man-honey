@@ -1,0 +1,79 @@
+.usage-section {
+    width: 100%;
+    padding: 40px 0;
+    background: linear-gradient(to bottom, #7D4A3D 0%, #541005 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.usage-title {
+    color: #FFF;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    direction: rtl;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+.usage-title::before,
+.usage-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 2px;
+    background-color: #FFF;
+}
+
+.usage-title::before {
+    right: calc(100% + 5px);
+}
+
+.usage-title::after {
+    left: calc(100% + 5px);
+}
+
+.section-5-title {
+    position: absolute;
+    top: 2%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    color: #FFFDD0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    font-weight: 400;
+    text-align: center;
+    direction: rtl;
+    width: 70%;
+    padding: 0 10px;
+    z-index: 10;
+    white-space: normal;
+    line-height: 1.3;
+}
+
+.section-5-instructions {
+    position: absolute;
+    top: 56%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 10;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4rem;
+}
+
+.section-5-instructions p {
+    color: #541005;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+}

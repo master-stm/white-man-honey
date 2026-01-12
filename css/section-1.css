@@ -1,0 +1,84 @@
+.overlay-title {
+    position: absolute;
+    top: 23%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Sans Arabic', sans-serif;
+    color: #FFFDD0;
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+    font-weight: 700;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+}
+
+.overlay-subtitle {
+    position: absolute;
+    top: 28.5%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #541005;
+    font-size: clamp(0.85rem, 4vw, 1rem);
+    font-weight: 600;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 300;
+    font-size: clamp(0.75rem, 3.5vw, 0.9rem);
+    line-height: 1.6;
+    direction: rtl;
+}
+
+.overlay-text p:nth-child(2) {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.overlay-description {
+    position: absolute;
+    top: 78.5%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: clamp(0.85rem, 4vw, 1rem);
+    font-weight: 600;
+}
+
+.overlay-list {
+    position: absolute;
+    top: 89.5%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    text-align: end;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.overlay-list p {
+    color: #5E2206;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 600;
+    font-size: clamp(0.8rem, 3.5vw, 1rem);
+    margin: clamp(0.3rem, 2vw, 0.55rem) 0;
+}

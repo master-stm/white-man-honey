@@ -1,0 +1,27 @@
+.section-7 {
+    width: 100%;
+    background-color: #541005;
+    padding: 1rem 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guarantee-list {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    direction: rtl;
+}
+
+.guarantee-list p {
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+    text-align: right;
+    line-height: 1.2;
+}

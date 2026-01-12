@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;600;700&family=Noto+Sans+Arabic:wght@400;700&display=swap');
+
+:root {
+    --bg-dark: #541005;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-color: var(--bg-dark);
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+    line-height: 0;
+    /* Removing extra space under images */
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 500px;
+    /* Standard mobile-first landing page width */
+    margin: 0 auto;
+    padding-bottom: 100px;
+    /* Space for sticky footer */
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    background-color: var(--bg-dark);
+}
+
+@media (min-width: 501px) {
+    body {
+        background-color: #1a0502;
+        /* Darker background for the sides on desktop */
+    }
+}
+
+.video-section,
+.image-section {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Optional: Improve mobile view if images are too wide */
+@media (max-width: 768px) {
+    video {
+        min-height: 300px;
+        /* Ensure video has presence on small screens */
+        object-fit: cover;
+    }
+}

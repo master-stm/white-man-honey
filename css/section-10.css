@@ -1,0 +1,59 @@
+.section-10-title-1 {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #541005;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: clamp(0.85rem, 4vw, 1.1rem);
+    font-weight: 600;
+    text-align: center;
+    direction: rtl;
+    width: 90%;
+    z-index: 10;
+}
+
+.section-10-title-2 {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFDD0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: clamp(0.95rem, 4.5vw, 1.2rem);
+    font-weight: 300;
+    text-align: center;
+    direction: rtl;
+    width: 90%;
+    z-index: 10;
+}
+
+.section-10-title-3 {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFDD0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: clamp(1.1rem, 5vw, 1.3rem);
+    font-weight: 700;
+    text-align: center;
+    direction: rtl;
+    width: 90%;
+    z-index: 10;
+}
+
+.section-10-title-4 {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #541005;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    direction: rtl;
+    width: 90%;
+    z-index: 10;
+}

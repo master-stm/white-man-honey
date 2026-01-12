@@ -1,0 +1,67 @@
+.ingredients-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    z-index: 10;
+    display: block;
+}
+
+.ingredients-header {
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    position: absolute;
+    top: 5%;
+    left: 49%;
+}
+
+.ingredients-intro {
+    color: #541005;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1rem;
+    direction: rtl;
+    text-align: right;
+    width: 43%;
+    position: absolute;
+    top: 13%;
+    right: 0;
+    line-height: 1.6;
+}
+
+.ingredient-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: clamp(0.75rem, 3.5vw, 0.95rem);
+    direction: rtl;
+    position: relative;
+    top: 41%;
+    right: 5%;
+    justify-content: space-between;
+}
+
+.ingredient-bar p {
+    width: 100%;
+    margin: clamp(9px, 1.5vw, 15px) 0 clamp(15px, 5vw, 30px) 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.ingredient-bar strong {
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.ingredient-bar .dark {
+    color: #FFF;
+}
+
+.ingredient-bar .light {
+    color: #541005;
+}

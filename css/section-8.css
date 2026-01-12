@@ -1,0 +1,39 @@
+.section-8-title {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #541005;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    direction: rtl;
+    width: 100%;
+    z-index: 10;
+}
+
+.testimonials {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 800px;
+    z-index: 10;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonials p {
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: clamp(0.8rem, 3.5vw, 1rem);
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    line-height: 1.2;
+}

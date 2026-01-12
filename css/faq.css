@@ -1,0 +1,75 @@
+.faq-wrapper {
+    width: 100%;
+    z-index: 10;
+    direction: rtl;
+}
+
+.faq-header {
+    width: 100%;
+    background-color: #E5D8C1;
+    padding: 1em;
+    text-align: center;
+}
+
+.faq-header h2 {
+    color: #541005;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+    direction: rtl;
+    border-top: 1px dotted #541005;
+    border-left: 1px dotted #541005;
+    border-right: 1px dotted #541005;
+    border-radius: 15px 15px 0 0;
+    padding: 1.1em 1em 0;
+}
+
+.faq-content {
+    width: 100%;
+    background-color: #541005;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-left: 1px dotted #541005;
+    border-bottom: 1px dotted #541005;
+    border-right: 1px dotted #541005;
+    border-radius: 0 0 15px 15px;
+}
+
+details {
+    border-radius: 8px;
+    padding: 15px 20px;
+    cursor: pointer;
+    direction: rtl;
+}
+
+details summary {
+    color: #FFFDD0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: clamp(0.85rem, 4vw, 1.1rem);
+    font-weight: 700;
+    list-style: none;
+    cursor: pointer;
+    text-align: right;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] summary {
+    margin-bottom: 15px;
+}
+
+details p {
+    color: #FFFDD0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: clamp(0.8rem, 3.5vw, 1rem);
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    text-align: right;
+    padding-right: 10px;
+}
